@@ -1,3 +1,9 @@
+html {
+  /* To make use of full height of page*/
+  min-height: 100%;
+  margin: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +11,90 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: #000000;
+  background: linear-gradient(0deg, rgba(14, 14, 27, 0.986) 4%, rgb(18,14,27) 66%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+nav {
+  grid-area: nav;
+  background-color: #3D0000;
+  height: 15px;
+  padding: 6px 20px;
+  margin-top:-10px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+#about-me-link {
+  display: inline-block;
+  padding: 0px 25px 0px 25px;
+}
+
+#events-link {
+  display: inline-block;
+  padding: 0px 25px 0px 25px;
+}
+
+#posts-link {
+  display: inline-block;
+  padding: 0px 25px 0px 25px;
+}
+
+video {
+  position: flex;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+header {
+  width: 100%;
+}
+
+#about-me-image {
+  height: 25%;
+  width: 25%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding: 25px;
+}
+
+#event-container {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.event-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
