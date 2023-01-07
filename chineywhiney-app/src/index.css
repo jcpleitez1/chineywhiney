@@ -12,11 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: #000000;
-  background: linear-gradient(0deg, rgba(14, 14, 27, 0.986) 4%, rgb(18,14,27) 66%);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #540375;
   color: white;
 }
 
@@ -27,10 +23,13 @@ code {
 
 nav {
   grid-area: nav;
-  background-color: #3D0000;
+  background-color: #62B6B7;
   height: 15px;
-  padding: 6px 20px;
-  margin-top:-10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: -5px;
   text-align: center;
   font-size: large;
   font-weight: bold;
@@ -38,17 +37,17 @@ nav {
 
 #about-me-link {
   display: inline-block;
-  padding: 0px 25px 0px 25px;
+  padding: 0px 15px 0px 15px;
 }
 
 #events-link {
   display: inline-block;
-  padding: 0px 25px 0px 25px;
+  padding: 0px 15px 0px 15px;
 }
 
-#posts-link {
+#contact-link {
   display: inline-block;
-  padding: 0px 25px 0px 25px;
+  padding: 0px 15px 0px 15px;
 }
 
 video {
@@ -67,11 +66,20 @@ header {
 
 #about-me-image {
   height: 25%;
-  width: 25%;
+  width: 90%;
   display: flex;
+  margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#logo {
+  display: flex;
   width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -84,7 +92,24 @@ h2 {
 
 p {
   text-align: center;
-  padding: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.name {
+  font-weight: bold;
+  font-style: italic;
+  color: #FF7000;
+  font-family: fantasy;
+}
+
+.tagline {
+  font-weight: bold;
+  font-style: italic;
+  color: #FF7000;
+  font-family: fantasy;
 }
 
 #event-container {
@@ -97,4 +122,29 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 75%;
+}
+
+.contactForm {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.col {
+  padding: 10px;
+}
+
+.submit-btn {
+  margin: 10px;
+}
+
+.buy-ticket {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  color: #540375;
+  background-color: #FF7000;
+  font-weight: bold;
 }
