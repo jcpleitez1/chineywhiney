@@ -17,6 +17,9 @@ export default function Events() {
                 <a href="https://www.eventbrite.com/e/sos-save-our-soca-socacize-social-tickets-498534448957">
                     <button className="buy-ticket">BUY TICKETS</button>
                 </a>
+                <a href="https://socacize.com/">
+                    <button className="socacize-button">LEARN ABOUT SOCACIZE</button>
+                </a>
             </div>
         </div>
     )
